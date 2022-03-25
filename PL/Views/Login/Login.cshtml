@@ -1,0 +1,47 @@
+﻿@model ML.Usuario
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @using (Html.BeginForm("Login", "Login", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+        <div class="container">
+            <h2 class="text-center">Login</h2>
+            <div class="text-center" style="display: flex;justify-content: center;align-items: center;">
+                <div class="jumbotron col-lg-4">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Username)
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            @Html.TextBoxFor(model => model.Username, new { @class = "form-control" })
+                        </div>
+                        @Html.ValidationMessageFor(model => model.Username, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Password)
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                            @Html.TextBoxFor(model => model.Password, new { @class = "form-control", @type = "password" })
+                        </div>
+                        @Html.ValidationMessageFor(model => model.Password, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary">Iniciar sesión</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</body>
+</html>

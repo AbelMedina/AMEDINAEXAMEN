@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4ade356b-3133-46bc-9fba-2f235fe5227f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4451/Login.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Login.wsdl" MetadataType="Wsdl" ID="674095af-8eee-466f-a389-9af199d7a6e6" SourceId="1" SourceUrl="http://localhost:4451/Login.svc?wsdl" />
+    <MetadataFile FileName="Login.disco" MetadataType="Disco" ID="6828f928-e00d-4a02-afab-c894e96c075b" SourceId="1" SourceUrl="http://localhost:4451/Login.svc?disco" />
+    <MetadataFile FileName="Login.xsd" MetadataType="Schema" ID="df15c3cc-3808-4721-be1b-835033de0dfb" SourceId="1" SourceUrl="http://localhost:4451/Login.svc?xsd=xsd2" />
+    <MetadataFile FileName="Login1.xsd" MetadataType="Schema" ID="bbe0ed9e-bec3-44a2-b339-acb3acdd3e3d" SourceId="1" SourceUrl="http://localhost:4451/Login.svc?xsd=xsd3" />
+    <MetadataFile FileName="Login2.xsd" MetadataType="Schema" ID="d4783841-aca1-4245-b70b-335071ec355c" SourceId="1" SourceUrl="http://localhost:4451/Login.svc?xsd=xsd0" />
+    <MetadataFile FileName="Login3.xsd" MetadataType="Schema" ID="1f0d16e0-3ef6-4786-bdf1-b36487e806a5" SourceId="1" SourceUrl="http://localhost:4451/Login.svc?xsd=xsd1" />
+    <MetadataFile FileName="Login4.xsd" MetadataType="Schema" ID="26be5a0e-22d6-4555-a0dd-712d2aff2ac2" SourceId="1" SourceUrl="http://localhost:4451/Login.svc?xsd=xsd4" />
+    <MetadataFile FileName="Login5.xsd" MetadataType="Schema" ID="8b555d96-9280-4fca-bc69-45c2f2fba42e" SourceId="1" SourceUrl="http://localhost:4451/Login.svc?xsd=xsd5" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
